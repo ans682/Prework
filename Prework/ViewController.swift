@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    // adding new features
     @IBOutlet weak var billAmountTextField: UITextField!
     @IBOutlet weak var tipAmountLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculcateTip(_ sender: Any) {
+        //view.backgroundColor = .black
         // Get bill amount from text field inpu
         let bill = Double(billAmountTextField.text!) ?? 0
         // Get Total tip by multiplying tip * tipPercentage

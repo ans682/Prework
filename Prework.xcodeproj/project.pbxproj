@@ -15,6 +15,7 @@
 		E028BB1326EBFA590077F4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E028BB1126EBFA590077F4AA /* LaunchScreen.storyboard */; };
 		E028BB1E26EBFA590077F4AA /* PreworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028BB1D26EBFA590077F4AA /* PreworkTests.swift */; };
 		E028BB2926EBFA590077F4AA /* PreworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028BB2826EBFA590077F4AA /* PreworkUITests.swift */; };
+		E028BB3726EC1B480077F4AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028BB3626EC1B480077F4AA /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E028BB2426EBFA590077F4AA /* PreworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E028BB2826EBFA590077F4AA /* PreworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreworkUITests.swift; sourceTree = "<group>"; };
 		E028BB2A26EBFA590077F4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E028BB3626EC1B480077F4AA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		E028BAFA26EBFA570077F4AA = {
 			isa = PBXGroup;
 			children = (
+				E028BB3626EC1B480077F4AA /* SettingsViewController.swift */,
 				E028BB0526EBFA570077F4AA /* Prework */,
 				E028BB1C26EBFA590077F4AA /* PreworkTests */,
 				E028BB2726EBFA590077F4AA /* PreworkUITests */,
@@ -261,6 +264,7 @@
 				E028BB0B26EBFA570077F4AA /* ViewController.swift in Sources */,
 				E028BB0726EBFA570077F4AA /* AppDelegate.swift in Sources */,
 				E028BB0926EBFA570077F4AA /* SceneDelegate.swift in Sources */,
+				E028BB3726EC1B480077F4AA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
